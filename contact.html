@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chethankumar - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i data-lucide="bulb">💡</i>
+            </button>
+        </header>
+        <main>
+            <section class="contact fade-in">
+                <h1 class="gradient-text">Get in Touch</h1>
+                <div class="contact-content">
+                    <div class="contact-info fade-in">
+                        <h2>Contact Information</h2>
+                        <p><i data-lucide="mail"></i> Email: Chethankumar2004@gmail.com</p>
+                        <p><i data-lucide="phone"></i> Phone: 9036979775</p>
+                        <p><i data-lucide="map-pin"></i> Location: varthur, Bangalore</p>
+                        <div class="social-links">
+                            <a href="https://github.com/ChethanReddysl" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="https://wa.me/qr/HXTKFN3F34L2H1" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="message-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form fade-in">
+                        <h2>Send a Message</h2>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Chethankumar. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
